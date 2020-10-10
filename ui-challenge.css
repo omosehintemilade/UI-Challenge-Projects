@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #e9e9e9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    transition: all 1s ease-in-out;
+    padding: 70px 20px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+
+/*  
+.container {
+    background-color: #e9e9e9;
+    height: 80%;
+    padding: 60px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+*/
+
+.mother {
+    background: red;
+    max-width: 520px;
+    margin: auto;
+    /* padding: 40px; */
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/283591/login-background.jpg);
+    background-size: cover;
+    position: relative;
+    -webkit-box-shadow: 0px 2px 60px 10px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 0px 2px 60px 10px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 2px 60px 10px rgba(0, 0, 0, 0.37);
+}
+
+nav {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+    margin-bottom: 55px;
+}
+
+nav li {
+    /* background-color: blue; */
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.login-u-p {
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px transparent solid;
+    padding-left: 10px;
+}
+
+.login-u-p:hover {
+    transition: all .15s ease-in;
+    background: transparent;
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+}
+
+.user-pass {
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.checkbox {
+    margin: 15px;
+}
+
+.k-m-s-i {
+    color: white;
+}
+
+section {
+    padding-bottom: 60px;
+    border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+    width: 90%;
+    margin: auto;
+}
+
+.sign-in {
+    background: #2962FF;
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    padding: 0px 5px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.sign-in a {
+    color: white;
+}
+
+article {
+    /* background: blue; */
+    width: 90%;
+    display: inline-block;
+    /* text-align: center; */
+    /* border-radius: 20px; */
+    /* height: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+    padding-top: 60px;
+}
+
+
+/* footer { 
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background: blue;
+    left: 40%;
+}
+*/
+
+.li1 {
+    border-bottom: 2px #2962FF solid;
+    padding-bottom: 3px;
+}
+
+.li2:hover {
+    border-bottom: 2px #2962FF solid;
+    padding-bottom: 3px;
+}
+
+.li2 a:hover {
+    color: white;
+}
+
+.li2 {
+    margin-left: 25px;
+}
+
+.li2 a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.after {
+    display: block;
+}
+
+.after {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+    /* background-color: #251549db; */
+    background-color: #291e46e6;
+}
+
+.N-S-A {
+    z-index: 2;
+    position: relative;
+}
+
+.login-u-p:focus {
+    /* background-color: #3e3458; */
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+    padding-left: 10px;
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+}
+
+article a {
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+article a:hover {
+    color: blue;
+    transition: all .15s ease-in-out;
+}
+
+.text-size {
+    font-size: 12px;
+}
