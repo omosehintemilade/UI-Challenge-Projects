@@ -137,6 +137,7 @@ article {
     align-items: center;
     /* margin-top: 20px; */
     padding-top: 60px;
+    margin: 0 auto;
 }
 
 
@@ -154,10 +155,11 @@ article {
     padding-bottom: 3px;
 }
 
-.li2:hover {
+
+/* .li2:hover {
     border-bottom: 2px #2962FF solid;
     padding-bottom: 3px;
-}
+} */
 
 .li2 a:hover {
     color: white;
@@ -212,4 +214,39 @@ article a:hover {
 
 .text-size {
     font-size: 12px;
+}
+
+
+/* anim */
+
+.anim {
+    margin-top: 3px;
+    background: transparent;
+    height: 3px;
+    position: relative;
+}
+
+.anim-inner {
+    background-color: transparent;
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+}
+
+.anim-switch-on {
+    height: 2px;
+    width: 100%;
+    background-color: #2962FF;
+    transition: width 0.1s linear;
+    border-radius: 3px;
+}
+
+.anim-switch-off {
+    height: 2px;
+    width: 0%;
+    background-color: #2962FF;
+    transition: width 0.1s linear;
+    border-radius: 3px;
 }
